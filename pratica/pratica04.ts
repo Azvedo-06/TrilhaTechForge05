@@ -25,7 +25,7 @@ function FiltarPares(array: number[]): void {
 FiltarPares([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 */
 
-// 03 Crie uma função que receba um array de strings e retorne um novo array com as palavras ordenadas em ordem alfabética.
+/* 03 Crie uma função que receba um array de strings e retorne um novo array com as palavras ordenadas em ordem alfabética.
 
 function OrdenarStrings(array: string[]): void {
   let arrayOrdenadoAlfabetica = array.sort(); // ordenar numeros: .sort((a, b) => a - b)
@@ -33,3 +33,4 @@ function OrdenarStrings(array: string[]): void {
 }
 
 OrdenarStrings(["n", "s", "a", "b"]);
+*/
