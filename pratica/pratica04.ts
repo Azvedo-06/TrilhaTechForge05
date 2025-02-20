@@ -28,7 +28,8 @@ FiltarPares([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 /*03 Crie uma função que receba um array de strings e retorne um novo array com as palavras ordenadas em ordem alfabética.
 
 function OrdenarStrings(array: string[]): void {
-  let arrayOrdenadoAlfabetica = array.sort(); // ordenar numeros: .sort((a, b) => a - b) ou caso de objetos
+  let arrayOrdenadoAlfabetica = array.sort();
+  // ordenar numeros: array.sort((a, b) => a - b) ou caso de objetos
   // produtos.sort((a, b) => (a.ordem > b.ordem ? 1 : -1))
   console.log("Resultado: " + arrayOrdenadoAlfabetica);
 }
