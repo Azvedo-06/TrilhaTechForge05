@@ -1,4 +1,4 @@
-//01 Escreva um programa que recebe uma string e a imprime invertida.
+/*01 Escreva um programa que recebe uma string e a imprime invertida.
 
 function reverseString(str:string) {
     let reverse = "";
@@ -9,3 +9,12 @@ function reverseString(str:string) {
 }
 
 console.log(reverseString("12345"));
+*/
+
+// 02 Encontrar o maior número em um array
+function findMaxNumber(arr: number[]): number {
+    let MaxNumber = arr.reduce((max, arr) => (arr > max ? arr : max))
+    return MaxNumber;
+}
+  
+console.log(findMaxNumber([10, 45, 78, 2, 99, 34])); 
